@@ -1,0 +1,43 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3f51b5;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.services {
+  /* padding: 50px; */
+  margin: 30px;
+}
+
+.services h1 {
+  text-align: center;
+}
+
+.services .box {
+  width: 28%;
+  padding: 20px 20px 30px 20px;
+  box-shadow: 1px 1px 5px #33333383;
+  text-align: center;
+  float: left;
+  margin: 20px 0 0 16px;
+  cursor: pointer;
+}
